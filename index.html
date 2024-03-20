@@ -8,57 +8,133 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="#">home</a>
-        <a href="#">about</a>
-        <a href="#">services</a>
-        <a href="#">app</a>
-        <a href="#">contact</a>
-        <button>login now</button>
-    </nav>
-
-    <div class="banner">
-        <div class="bannerContent">
-            <h1>become a trader in <span>crypto currencies</span></h1> 
-            <p>the tools and information you need to buy, sell, trade, invest, and spend cryptocurrencies</p> 
+    <header>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">app</a>
+            <a href="#">contact</a>
+            <button>login now</button>
+        </nav>
     
-            <button>start now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+        <div class="banner genLayout">
+            <div class="bannerContent">
+                <h1>become a trader in <span>crypto currencies</span></h1> 
+                <p>the tools and information you need to buy, sell, trade, invest, and spend cryptocurrencies</p> 
+        
+                <button>start now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+            </div>
+            <form action="">
+                <div class="btn">
+                    <button>buy</button>
+                    <button>sell</button>
+                </div>
+    
+                <div class="inputBox">
+                    <label>choice coin <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
+                    <select>
+                        <option>bitcion</option>
+                    </select>
+                </div>
+    
+                <div class="inputBox">
+                    <label>buying amount <i class="fa fa-asterisk" aria-hidden="true"></i></label>
+                    <div class="innerInputBox">
+                        <input type="text" placeholder="enter amount">
+                        <select>
+                            <option>btc</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="inputBox">
+                    <label>paying amount <i class="fa fa-asterisk" aria-hidden="true"></i></label>
+                    <div class="innerInputBox">
+                        <input type="text" placeholder="enter amount">
+                        <select>
+                            <option>usd</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <button>confirm</button>
+            </form>
         </div>
-        <form action="">
-            <div class="btn">
-                <button>buy</button>
-                <button>sell</button>
-            </div>
+    </header>
 
-            <div class="inputBox">
-                <label>choice coin <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
-                <select>
-                    <option>bitcion</option>
-                </select>
-            </div>
+    <!-- main -->
+    <main>
+        <section class="secOne">
+            <div class="investLayout genLayout">
+                <div class="investContent">
+                    <h1> Free your money and invest with confidence</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellat mollitia facere, fugit, incidunt dolor natus quisquam consequatur</p>
 
-            <div class="inputBox">
-                <label>buying amount <i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <div class="innerInputBox">
-                    <input type="text" placeholder="enter amount">
-                    <select>
-                        <option>btc</option>
-                    </select>
+                    <div class="money">
+                        <img src="/images/bitcion-removebg-preview.png" alt="btc">
+                        <div class="moneyText">
+                            <h4>Buy,sell and trade on the go</h4>
+                            <span>Manage your holding from your mobile device</span>
+                        </div>
+                    </div>
+
+                    <div class="money">
+                        <img src="/images/bitcion-removebg-preview.png" alt="btc">
+                        <div class="moneyText">
+                            <h4>Take control of your wealth</h4>
+                            <span>Rest assured you(and only you) have access to your funds</span>
+                        </div>
+                    </div>
+
+                    <div class="money">
+                        <img src="/images/bitcion-removebg-preview.png" alt="btc">
+                        <div class="moneyText">
+                            <h4>Move money easily</h4>
+                            <span>Send and recieve cryptocurrencies anytime, anywhere, no-questions asked</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="moneyImg">
+                    <img src="/images/btc-removebg-preview.png" alt="money">
                 </div>
             </div>
 
-            <div class="inputBox">
-                <label>paying amount <i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <div class="innerInputBox">
-                    <input type="text" placeholder="enter amount">
-                    <select>
-                        <option>usd</option>
-                    </select>
+        </section>
+
+        <!-- section two -->
+        <section class="secTwo">
+            <div id="services" class="genLayout">
+                <h1>Why choose crypency</h1>
+
+                <div class="serviceOption">
+                    <div class="serviceCard">
+                        <img src="images/WhatsApp_Image_2024-03-15_at_13.00.14_d671e992-removebg-preview.png" alt="lock">
+                        <div class="innerServiceCard">
+                            <h5>safe and security</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odio.</p>
+                        </div>
+                    </div>
+        
+                    <div class="serviceCard">
+                        <img src="/images/Coin-removebg-preview.png" alt="lock">
+                        <div class="innerServiceCard">
+                            <h5>instant add money</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odio.</p>
+                        </div>
+                    </div>
+        
+                    <div class="serviceCard">
+                        <img src="/images/WhatsApp_Image_2024-03-15_at_12.57.13_ddd593a4-removebg-preview.png" alt="lock">
+                        <div class="innerServiceCard">
+                            <h5>experts support</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odio.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <button>confirm</button>
-        </form>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
